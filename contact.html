@@ -1,43 +1,54 @@
 <!doctype html>
-<html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Quantiflow — Contact</title><link rel='stylesheet' href='style.css'></head><body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Quantiflow — Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="min-height:100vh; display:flex; flex-direction:column; margin:0;">
 <header class="site-header header">
   <div class="container nav">
-    <div class="brand">   <a class="" href="index.html"><img src="./assets/logo.png" alt="Quantiflow logo"></a></div>
+    <div class="brand">
+      <a href="index.html"><img src="./assets/logo.png" alt="Quantiflow logo"></a>
+    </div>
     <nav>
-      <a class="active" href="index.html">Home</a>
-      <a class="" href="why-choose-us.html">Why Choose Us</a>
-      <a class="" href="industries.html">Industries</a>
+      <a href="index.html">Home</a>
+      <a href="why-choose-us.html">Why Choose Us</a>
+      <a href="industries.html">Industries</a>
       <a href="index.html#services">Our Services</a>
-      <a class="" href="contact.html">Contact</a>
+      <a class="active" href="contact.html">Contact</a>
     </nav>
   </div>
 </header>
-<main>
+
+<main style="flex:1;">
   <section class="section contact-wrap">
     <div class="container">
       <h2>Contact</h2>
-      <p class="note">Let’s connect and explore how we can build smarter solutions together. Reach out today—we’d love to hear about your vision.</p>
-      <div class="center mt-3">
-        <div class="frost-card" role="region" aria-labelledby="contact-title">
-          <h3 id="contact-title">Start your project</h3>
-          <form class="form mt-2" action="contact.php" method="POST" autocomplete="on" novalidate>
-            <input type="hidden" name="__hp" value="">
-            <label for="name">Your Name</label>
-            <input class="input" id="name" name="name" type="text" required placeholder="Jane Doe">
-
-            <label for="email">Your Email</label>
-            <input class="input" id="email" name="email" type="email" required placeholder="you@example.com">
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" class="input" required placeholder="Tell us a little about your project..."></textarea>
-
-            <div class="mt-2"><button type="submit">Send Message</button></div>
-            <div class="note mt-2">We typically respond within one business day.</div>
-          </form>
-        </div>
-      </div>
+      <p class="note">
+        At Quantiflow, we believe that meaningful collaboration starts with an open conversation. 
+        Whether you’re a business looking for tailored data-driven solutions, an organization seeking 
+        innovative ways to optimize operations, or simply curious about how our expertise can support 
+        your goals, we’re here to help. Our team values transparency, efficiency, and creativity, and 
+        we take the time to truly understand your unique challenges before offering solutions. 
+        By reaching out, you’re taking the first step toward building smarter, more sustainable systems 
+        that can drive real impact. We look forward to learning about your vision and exploring how 
+        Quantiflow can become a trusted partner on your journey.
+      </p>
+      <p class="mt-2">
+        📧 Email us at: <a href="mailto:quantiflow@outlook.com">quantiflow@outlook.com</a>
+      </p>
     </div>
   </section>
 </main>
-<footer class="site-footer"><div class="container foot"><span>© <span data-year></span> Quantiflow Inc.</span></div></footer><script src="script.js"></script>
-</body></html>
+
+<footer class="site-footer" style="margin-top:auto;">
+  <div class="container foot">
+    <span>© <span data-year></span> Quantiflow Inc.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
